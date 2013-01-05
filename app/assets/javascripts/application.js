@@ -12,4 +12,21 @@
 //
 //= require jquery
 //= require jquery_ujs
+
+///////////////////////
+// Ember dependencies /
+///////////////////////
+
+//= require vendor/handlebars-1.0.rc.1
+//= require vendor/ember
+//= require vendor/ember-data
+
+// create Ember-App namespace
+//= require_self 
+
+//////////////////////
+// Ember Application /
+//////////////////////
+//= require ember_playground
+window.App = Ember.Application.create();
 //= require_tree .

@@ -7,6 +7,10 @@ gem 'rails', '3.2.10'
 
 gem 'sqlite3'
 
+gem 'haml'
+gem 'hamlbars'
+gem 'ember-rails', github: 'emberjs/ember-rails'
+
 
 # Gems used only for assets and not required
 # in production environments by default.

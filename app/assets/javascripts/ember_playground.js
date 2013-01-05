@@ -1,0 +1,10 @@
+//= require app/config
+//= require app/store
+//= require_tree ./app/models
+//= require_tree ./app/controllers
+//= require_tree ./app/views
+//= require_tree ./app/helpers
+//= require_tree ./app/templates
+//= require app/router
+//= require_tree ./app/routes
+//= require_self
